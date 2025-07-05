@@ -23,13 +23,13 @@ const projects = [
     imageHint: 'music player',
   },
   {
-    title: 'E-commerce Platform',
-    description: 'A full-featured e-commerce site with a custom CMS, built with Next.js and Stripe for payments.',
+    title: 'Diabetes Predictor Web App',
+    description: 'A machine learning application that predicts the likelihood of diabetes based on health metrics. Built with Python, Flask, and a model developed in a Jupyter Notebook.',
     image: 'https://placehold.co/600x400.png',
-    tags: ['React', 'Next.js', 'Stripe', 'Tailwind CSS'],
+    tags: ['Flask', 'Python', 'Jupyter Notebook'],
     liveUrl: '#',
     repoUrl: '#',
-    imageHint: 'abstract technology',
+    imageHint: 'health data',
   },
   {
     title: 'Data Visualization Dashboard',
