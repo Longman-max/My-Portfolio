@@ -20,7 +20,7 @@ export default function Header() {
       <div className="container flex h-14 items-center">
         <div className="mr-4 flex items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <span className="font-bold font-headline text-lg">Longman</span>
+            <span className="font-bold font-headline text-lg">Obasi Agbai</span>
           </Link>
         </div>
         
@@ -49,7 +49,7 @@ export default function Header() {
             <SheetContent side="right" className="w-[240px]">
               <div className="flex flex-col p-6">
                 <Link href="/" className="mb-8" onClick={() => setIsMobileMenuOpen(false)}>
-                  <span className="font-bold font-headline text-xl">Longman</span>
+                  <span className="font-bold font-headline text-xl">Obasi Agbai</span>
                 </Link>
                 <nav className="flex flex-col space-y-4">
                   {navItems.map((item) => (
