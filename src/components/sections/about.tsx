@@ -10,7 +10,7 @@ export default function About() {
             <Card className="overflow-hidden rounded-xl">
               <CardContent className="p-0">
                 <Image
-                  src="https://placehold.co/600x600.png"
+                  src="https://placehold.co/600x600/EAEAEA.png"
                   alt="Portrait of Obasi Agbai"
                   width={600}
                   height={600}

@@ -7,7 +7,7 @@ const projects = [
   {
     title: 'E-commerce Platform',
     description: 'A full-featured e-commerce site with a custom CMS, built with Next.js and Stripe for payments.',
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://placehold.co/600x400/EAEAEA.png',
     tags: ['React', 'Next.js', 'Stripe', 'Tailwind CSS'],
     liveUrl: '#',
     repoUrl: '#',
@@ -16,7 +16,7 @@ const projects = [
   {
     title: 'Data Visualization Dashboard',
     description: 'A web app for visualizing complex datasets with interactive charts and graphs using D3.js.',
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://placehold.co/600x400/EAEAEA.png',
     tags: ['React', 'D3.js', 'Node.js', 'Express'],
     liveUrl: '#',
     repoUrl: '#',
@@ -25,7 +25,7 @@ const projects = [
   {
     title: 'Task Management App',
     description: 'A responsive task management application to help users organize their daily tasks and boost productivity.',
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://placehold.co/600x400/EAEAEA.png',
     tags: ['Vue.js', 'Firebase', 'Vuetify'],
     liveUrl: '#',
     repoUrl: '#',
