@@ -2,9 +2,10 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { ThemeToggle } from './theme-toggle';
 
 const navItems = [
   { label: 'About', href: '#about' },
@@ -36,9 +37,11 @@ export default function Header() {
               </Link>
             ))}
           </nav>
+          <ThemeToggle />
         </div>
 
-        <div className="flex md:hidden flex-1 justify-end">
+        <div className="flex md:hidden flex-1 justify-end items-center space-x-2">
+          <ThemeToggle />
           <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
