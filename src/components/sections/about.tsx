@@ -10,12 +10,12 @@ export default function About() {
             <Card className="overflow-hidden rounded-xl">
               <CardContent className="p-0">
                 <Image
-                  src="https://placehold.co/600x600.png"
-                  alt="Obasi Agbai Headshot"
+                  src="https://firebasestudio.googleapis.com/v0/b/project-id.appspot.com/o/migrations%2F4a0e917d-8153-4315-99d7-832f01f010f3%2Foriginal.png?alt=media&token=c191a6be-3511-46ce-bd7a-a384814e5b9f"
+                  alt="Portrait of Longman"
                   width={600}
                   height={600}
                   className="object-cover"
-                  data-ai-hint="professional headshot"
+                  data-ai-hint="portrait"
                 />
               </CardContent>
             </Card>

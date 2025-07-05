@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="container px-4 md:px-6 text-center">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-foreground">
-            Obasi Agbai
+            Longman
           </h1>
           <p className="mt-4 text-lg md:text-xl text-muted-foreground">
             A creative developer passionate about building beautiful and functional web applications.
