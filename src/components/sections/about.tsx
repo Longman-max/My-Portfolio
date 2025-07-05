@@ -11,7 +11,7 @@ export default function About() {
               <CardContent className="p-0">
                 <Image
                   src="https://placehold.co/600x600.png"
-                  alt="Jane Doe Headshot"
+                  alt="Obasi Agbai Headshot"
                   width={600}
                   height={600}
                   className="object-cover"
