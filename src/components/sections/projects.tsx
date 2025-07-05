@@ -5,6 +5,15 @@ import { Wand2 } from 'lucide-react';
 
 const projects = [
   {
+    title: 'Music Player App',
+    description: 'An intuitive music player application with playlist management, playback controls, and a sleek, modern interface. Built with performance and user experience in mind.',
+    image: 'https://placehold.co/600x400.png',
+    tags: ['React', 'TypeScript', 'Node.js', 'Spotify API'],
+    liveUrl: '#',
+    repoUrl: '#',
+    imageHint: 'music player',
+  },
+  {
     title: 'E-commerce Platform',
     description: 'A full-featured e-commerce site with a custom CMS, built with Next.js and Stripe for payments.',
     image: 'https://placehold.co/600x400.png',
