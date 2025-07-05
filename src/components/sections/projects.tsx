@@ -5,6 +5,15 @@ import { Wand2 } from 'lucide-react';
 
 const projects = [
   {
+    title: 'Social Media App',
+    description: 'A social media application with features like user profiles, posts, comments, and a real-time feed.',
+    image: 'https://placehold.co/600x400.png',
+    tags: ['React Native', 'Firebase', 'GraphQL'],
+    liveUrl: '#',
+    repoUrl: '#',
+    imageHint: 'social media',
+  },
+  {
     title: 'Music Player App',
     description: 'An intuitive music player application with playlist management, playback controls, and a sleek, modern interface. Built with performance and user experience in mind.',
     image: 'https://placehold.co/600x400.png',
