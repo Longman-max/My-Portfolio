@@ -13,23 +13,14 @@ export default function Hero() {
       </div>
       <div className="relative z-10 container px-4 md:px-6">
         <div className="flex flex-col items-center text-center gap-8">
-          <div className="space-y-4 max-w-3xl">
-            <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-foreground">
-              Obasi Agbai
-            </h1>
-            <p className="text-lg md:text-xl text-foreground/90">
-              A creative developer with a passion for building sleek, functional web apps and exploring the edge of what’s possible with code. Innovation drives me — from web development to machine learning, I’m all about turning bold ideas into impactful digital experiences.
-            </p>
-          </div>
-          
           <div className="flex justify-center">
-             <Card className="overflow-hidden rounded-xl shadow-lg w-full max-w-xs sm:max-w-sm md:max-w-md bg-background/50 backdrop-blur-sm">
+             <Card className="overflow-hidden rounded-full shadow-lg w-full max-w-[500px] bg-background/50 backdrop-blur-sm">
               <CardContent className="p-0">
                 <Image
-                  src="https://placehold.co/600x600.png"
+                  src="https://placehold.co/500x500.png"
                   alt="Portrait of Obasi"
-                  width={600}
-                  height={600}
+                  width={500}
+                  height={500}
                   className="object-cover aspect-square"
                   data-ai-hint="portrait"
                 />
