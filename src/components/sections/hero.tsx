@@ -14,13 +14,13 @@ export default function Hero() {
       <div className="relative z-10 container px-4 md:px-6">
         <div className="flex flex-col items-center text-center gap-8">
           <div className="flex justify-center">
-             <Card className="overflow-hidden rounded-full shadow-lg w-full max-w-[400px] bg-background/50 backdrop-blur-sm">
+             <Card className="overflow-hidden rounded-full shadow-lg w-full max-w-[250px] bg-background/50 backdrop-blur-sm">
               <CardContent className="p-0">
                 <Image
-                  src="https://placehold.co/400x400.png"
+                  src="https://placehold.co/250x250.png"
                   alt="Portrait of Obasi"
-                  width={400}
-                  height={400}
+                  width={250}
+                  height={250}
                   className="object-cover aspect-square"
                   data-ai-hint="portrait"
                 />
