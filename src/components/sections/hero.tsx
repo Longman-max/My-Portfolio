@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import MatrixAnimation from '@/components/ui/matrix-animation';
+import { Download } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -12,9 +13,9 @@ export default function Hero() {
         <div className="flex flex-col items-center text-center gap-8">
           <div className="space-y-4 max-w-3xl">
             <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-foreground">
-              Obasi Agbai
+              I'm Obasi
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground">
+            <p className="text-lg md:text-xl text-foreground/90">
               A creative developer passionate about building beautiful and functional web applications.
             </p>
           </div>
@@ -24,7 +25,7 @@ export default function Hero() {
               <CardContent className="p-0">
                 <Image
                   src="https://placehold.co/600x600.png"
-                  alt="Portrait of Obasi Agbai"
+                  alt="Portrait of Obasi"
                   width={600}
                   height={600}
                   className="object-cover aspect-square"
@@ -34,7 +35,7 @@ export default function Hero() {
             </Card>
           </div>
 
-          <div className="space-y-4 text-muted-foreground md:text-lg/relaxed max-w-3xl">
+          <div className="space-y-4 text-foreground/90 md:text-lg/relaxed max-w-3xl">
             <p>
                 I am a passionate and results-oriented developer with a knack for creating engaging user experiences. With a strong foundation in modern web technologies, I specialize in bringing ideas to life through clean, efficient, and scalable code. My journey in tech is driven by a constant curiosity and a desire to solve real-world problems.
             </p>
@@ -45,7 +46,10 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg">
-              <Link href="#projects">View My Work</Link>
+              <Link href="#">
+                <Download className="mr-2 h-4 w-4" />
+                Download CV
+              </Link>
             </Button>
           </div>
         </div>
