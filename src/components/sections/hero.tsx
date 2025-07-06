@@ -47,7 +47,11 @@ export default function Hero() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg">
+            <Button
+              asChild
+              size="lg"
+              className="shadow-[0_4px_15px_hsl(var(--primary)/0.2)] hover:shadow-[0_4px_25px_hsl(var(--primary)/0.3)] transition-shadow duration-300"
+            >
               <Link href="#">
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
