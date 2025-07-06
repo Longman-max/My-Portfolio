@@ -1,12 +1,16 @@
 import Link from 'next/link';
 import { Github, Linkedin, Twitter } from 'lucide-react';
+import MatrixAnimation from '../ui/matrix-animation';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-card border-t">
-      <div className="container py-8 flex flex-col md:flex-row items-center justify-between">
+    <footer className="relative bg-card border-t overflow-hidden">
+      <div className="absolute inset-0 z-0">
+        <MatrixAnimation />
+      </div>
+      <div className="relative z-10 container py-8 flex flex-col md:flex-row items-center justify-between">
         <p className="text-sm text-muted-foreground mb-4 md:mb-0">
           &copy; {currentYear} Profolio. All Rights Reserved.
         </p>

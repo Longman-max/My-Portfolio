@@ -9,29 +9,37 @@ const MatrixAnimation: React.FC = () => {
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    if (!canvas) return;
+    if (!canvas || !canvas.parentElement) return;
 
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    let width = (canvas.width = window.innerWidth);
-    let height = (canvas.height = window.innerHeight);
-
-    const handleResize = () => {
-        width = canvas.width = window.innerWidth;
-        height = canvas.height = window.innerHeight;
-    }
-    window.addEventListener('resize', handleResize);
-
-    const columns = Math.floor(width / 20);
+    let width = canvas.parentElement.clientWidth;
+    let height = canvas.parentElement.clientHeight;
+    canvas.width = width;
+    canvas.height = height;
+    
+    let columns = Math.floor(width / 20);
     const drops: number[] = [];
     for (let x = 0; x < columns; x++) {
       drops[x] = 1;
     }
 
+    const handleResize = () => {
+        if (!canvas || !canvas.parentElement) return;
+        width = canvas.width = canvas.parentElement.clientWidth;
+        height = canvas.height = canvas.parentElement.clientHeight;
+        columns = Math.floor(width / 20);
+        for (let x = 0; x < columns; x++) {
+          drops[x] = 1;
+        }
+    }
+    window.addEventListener('resize', handleResize);
+
     const chars = ['0', '1'];
 
     const draw = () => {
+      if (!ctx) return;
       if (resolvedTheme === 'dark') {
         ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
         ctx.fillRect(0, 0, width, height);

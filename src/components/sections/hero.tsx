@@ -7,8 +7,10 @@ import { Download } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section id="home" className="relative w-full py-20 md:py-24 lg:py-28 overflow-hidden">
-      <MatrixAnimation />
+    <section id="home" className="relative w-full py-16 md:py-20 overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-[500px] z-0">
+        <MatrixAnimation />
+      </div>
       <div className="relative z-10 container px-4 md:px-6">
         <div className="flex flex-col items-center text-center gap-8">
           <div className="space-y-4 max-w-3xl">
