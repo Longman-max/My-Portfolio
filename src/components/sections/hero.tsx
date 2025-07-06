@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="flex flex-col items-center text-center gap-8">
           <div className="space-y-4 max-w-3xl">
             <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-foreground">
-              I'm Obasi
+              Obasi Agbai
             </h1>
             <p className="text-lg md:text-xl text-foreground/90">
               A creative developer passionate about building beautiful and functional web applications.
