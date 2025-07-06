@@ -2,11 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import MatrixAnimation from '@/components/ui/matrix-animation';
 
 export default function Hero() {
   return (
-    <section id="home" className="w-full py-24 md:py-32 lg:py-40 bg-card">
-      <div className="container px-4 md:px-6">
+    <section id="home" className="relative w-full py-24 md:py-32 lg:py-40 overflow-hidden">
+      <MatrixAnimation />
+      <div className="relative z-10 container px-4 md:px-6">
         <div className="flex flex-col items-center text-center gap-8">
           <div className="space-y-4 max-w-3xl">
             <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-foreground">
@@ -18,10 +20,10 @@ export default function Hero() {
           </div>
           
           <div className="flex justify-center">
-             <Card className="overflow-hidden rounded-xl shadow-lg w-full max-w-xs sm:max-w-sm md:max-w-md">
+             <Card className="overflow-hidden rounded-xl shadow-lg w-full max-w-xs sm:max-w-sm md:max-w-md bg-background/50 backdrop-blur-sm">
               <CardContent className="p-0">
                 <Image
-                  src="https://placehold.co/600x600.png"
+                  src="https://placehold.co/600x600/CCCCCC/FFFFFF.png"
                   alt="Portrait of Obasi Agbai"
                   width={600}
                   height={600}
