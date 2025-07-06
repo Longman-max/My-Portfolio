@@ -6,7 +6,7 @@ import MatrixAnimation from '@/components/ui/matrix-animation';
 
 export default function Hero() {
   return (
-    <section id="home" className="relative w-full py-24 md:py-32 lg:py-40 overflow-hidden">
+    <section id="home" className="relative w-full py-20 md:py-24 lg:py-28 overflow-hidden">
       <MatrixAnimation />
       <div className="relative z-10 container px-4 md:px-6">
         <div className="flex flex-col items-center text-center gap-8">
@@ -23,7 +23,7 @@ export default function Hero() {
              <Card className="overflow-hidden rounded-xl shadow-lg w-full max-w-xs sm:max-w-sm md:max-w-md bg-background/50 backdrop-blur-sm">
               <CardContent className="p-0">
                 <Image
-                  src="https://placehold.co/600x600/CCCCCC/FFFFFF.png"
+                  src="https://placehold.co/600x600.png"
                   alt="Portrait of Obasi Agbai"
                   width={600}
                   height={600}
