@@ -18,7 +18,7 @@ export default function Hero() {
               Obasi Agbai
             </h1>
             <p className="text-lg md:text-xl text-foreground/90">
-              A creative developer passionate about building beautiful and functional web applications.
+              A creative developer with a passion for building sleek, functional web apps and exploring the edge of what’s possible with code. Innovation drives me — from web development to machine learning, I’m all about turning bold ideas into impactful digital experiences.
             </p>
           </div>
           
